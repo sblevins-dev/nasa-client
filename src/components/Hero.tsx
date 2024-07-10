@@ -12,7 +12,7 @@ export default function Hero() {
     useEffect(() => {
         const fetchPicture = async () => {
             try {
-                const response = await fetch('http://127.0.0.1:8000/daypic/?format=json')
+                const response = await fetch('https://nasa.stephen-blevins.dev/daypic/?format=json')
 
                 if (!response.ok) {
                     throw new Error('Network response was not ok');

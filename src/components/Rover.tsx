@@ -47,7 +47,7 @@ export default function Rover() {
     useEffect(() => {
         const fetchPhotos = async () => {
             try {
-                const response = await fetch("http://127.0.0.1:8000/roverPhotos/?format=json");
+                const response = await fetch("https://nasa.stephen-blevins.dev/roverPhotos/?format=json");
 
                 if (!response.ok) {
                     throw new Error('Network response was not ok');

@@ -6,7 +6,7 @@ import Rover from './components/Rover'
 function App() {
 
   return (
-    <div className='w-full max-h-[100vh] overflow-y-auto bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-800 to-gray-950 '>
+    <div className='w-full min-h-[100vh] max-h-[100vh] overflow-y-auto bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-800 to-gray-950 '>
       <div className='container m-auto flex flex-col gap-10 py-10 px-5'>
         <div>
           <h1 className='text-center font-bold text-5xl mb-2'>
